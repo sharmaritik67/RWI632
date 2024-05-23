@@ -1,0 +1,85 @@
+*what is java 
+Java is a programming language and a platform. Java is a high level, robust, object-oriented and secure programming language.
+
+*Platform: Any hardware or software environment in which a program runs, is known as a platform. Since Java has a runtime environment (JRE) and API, it is called a platform.
+
+*Application------
+According to Sun, 3 billion devices run Java. There are many devices where Java is currently used. Some of them are as follows:
+Desktop Applications 
+Web Applications 
+Enterprise Applications 
+Mobile Applications
+
+
+Types of Java Applications-
+				1) Standalone Application
+				2) Web Application
+				3) Enterprise Application
+				4) Mobile Application
+
+*Features of Java-
+		Simple
+		Object-Oriented
+		Portable
+		Platform independent
+		Secured
+		Robust
+		Architecture neutral
+		Interpreted
+		High Performance
+		Multithreaded
+		Distributed
+		Dynamic
+
+Simple->
+Java is very easy to learn, and its syntax is simple, clean and easy to understand.
+
+Object-oriented->
+Java is an object-oriented programming language. Everything in Java is an object. Object-oriented means we organize our software as a combination of different types of objects that incorporate both data and behavior.
+
+Platform Independent->
+Java is platform independent because it is different from other languages like C, C++, etc. which are compiled into platform specific machines while Java is a write once, run anywhere language. A platform is the hardware or software environment in which a program run
+
+Secured->
+Java is best known for its security. With Java, we can develop virus-free systems. Java is secured because:
+No explicit pointer
+Java Programs run inside a virtual machine sandbox.
+
+Robust->
+The English mining of Robust is strong. Java is robust because:
+It uses strong memory management.
+There is a lack of pointers that avoids security problems.
+Java provides automatic garbage collection which runs on the Java Virtual Machine to get rid of objects which are not being used by a Java application anymore.
+There are exception handling and the type checking mechanism in Java. All these points make Java robust.
+
+Architecture-neutral->
+Java is architecture neutral because there are no implementation dependent features, for example, the size of primitive types is fixed.
+
+Portable->
+Java is portable because it facilitates you to carry the Java bytecode to any platform. It doesn't require any implementation.
+
+High-performance->
+Java is faster than other traditional interpreted programming languages because Java bytecode is "close" to native code. It is still a little bit slower than a compiled language (e.g., C++). Java is an interpreted language that is why it is slower than compiled languages, e.g., C, C++, etc.
+
+Distributed->
+Java is distributed because it facilitates users to create distributed applications in Java. RMI and EJB are used for creating distributed applications. This feature of Java makes us able to access files by calling the methods from any machine on the internet.
+
+JVM:
+Converts bytecode into machine code.
+Contains an interpreter/JIT compiler.
+Different JVMs for different platforms.
+
+JRE:
+Includes the JVM and standard class libraries.
+Needed to run Java programs.
+
+JDK:
+Includes tools for developing Java programs (compiler, debugger).
+Contains JRE to run the programs.
+
+ JVM Works :
+Class Loader: Loads Java class files into the JVM.
+Bytecode Verifier: Checks the code fragments for illegal code that can violate access rights.
+Interpreter: Reads and executes the Java bytecode line by line.
+JIT Compiler: Converts bytecode into native machine code for higher performance.
+
